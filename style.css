@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgb(0, 250, 37);
+  font-family: "Courier new", sans-serif;
+  font-size: medium;
+  font-weight: 100000;
+}
+
+h2 {
+  color: rgb(0, 250, 37);
+  font-family: "Courier new", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(0, 250, 37);
+  font-family: "Courier new", sans-serif;
+  font-size: small;
+  font-weight: 100;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+button {
+  background-color: linen;
+  border-color: whitesmoke;
+  box-shadow: none;
+  box-sizing: border-box;
+}
