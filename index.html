@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Starter Website</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Script -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
+    <!--link to the javascript script-->
+    <script src="ai (2).js" defer></script>
+    <!--link to the ai javascript script-->
+    <link rel="stylesheet" href="style.css" />
+    <!--link to the css script-->
+    <title>Document</title>
   </head>
   <body>
-    <!-- Here's your starter project! Enjoy! -->
+    <h1>How old do you look?</h1>
+    <p>
+      If you're like me, I often get told that I don't look my age. Using AI,
+      this website will estimate how old you look using facial recognition
+      technology
+      <br />
+      <br />
+      Instructions:
+      <br />
+      <br />
+      1) Click on the 'choose file' button,
+      <br /><br />
+      2) Select a picture of yourself (preferably a picture with you facing
+      forward),
+      <br /><br />
+      3) Click submit.
+    </p>
+    <p id="myText">
+      How old do you look? <br /><br />
+      <input type="file" id="upload" />
+      <!--creating the input for the picture to be uploaded to-->
+      <button id="submit">Submit</button>
+      <!--submission button-->
+    </p>
+    <p id="myAge"></p>
   </body>
 </html>
